@@ -1,0 +1,48 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+  z-index: 1000;
+}
+
+/* ===== BRAND / TITLE ===== */
+.navbar-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+/* ===== RIGHT SIDE PROFILE ===== */
+.navbar-profile {
+  background: #0d99ff;
+  color: white;
+
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navbar-profile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 153, 255, 0.5);
+}

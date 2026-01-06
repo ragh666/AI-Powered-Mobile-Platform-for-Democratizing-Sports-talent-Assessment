@@ -1,0 +1,73 @@
+.page {
+  min-height: 100vh;
+  padding-top: 80px; /* prevents navbar overlap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CENTER CONTAINER */
+.center-container {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* WELCOME TEXT */
+.welcome-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-subtitle {
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+/* ICON GRID */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* ICON CARD */
+.icon-card {
+  width: 160px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.icon-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #0072ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
